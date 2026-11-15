@@ -278,8 +278,6 @@ L1:
 
 ---
 
----
-
 ## 8. ✅ Checklist
 
 ### Antes de entregar
