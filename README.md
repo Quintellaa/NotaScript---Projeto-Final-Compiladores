@@ -2,10 +2,10 @@
 
 **Integrantes:**
 
-- NOME_INTEGRANTE_1
-- NOME_INTEGRANTE_2
-- NOME_INTEGRANTE_3
-- NOME_INTEGRANTE_4
+- João Victor Brandão_2359197
+- Kathleen Aquino Lima_2364196
+- Lucas Costa_2361186
+- Victor Quintella_2544963
 
 
 Projeto Final de Compiladores: um **compilador completo em Python** para a **NotaScript**, uma DSL para lançar notas,
@@ -279,7 +279,7 @@ L1:
 - [x] O programa otimizado dá a mesma saída que o não otimizado.
 - [x] Todos os testes estão ✅ (37/37).
 - [x] *Reiniciar e executar tudo* roda sem erros.
-- [ ] O repositório é público e o README começa com os nomes de todos.
+- [x] O repositório é público e o README começa com os nomes de todos.
 
 ### Requisitos obrigatórios
 
@@ -304,5 +304,5 @@ L1:
 ### Formato de entrega
 
 - [x] Compilador em notebook `.ipynb` que roda do início ao fim.
-- [ ] Nomes de todos os integrantes no começo do README.
-- [ ] Repositório público no GitHub, entregue por um único membro do grupo.
+- [x] Nomes de todos os integrantes no começo do README.
+- [x] Repositório público no GitHub, entregue por um único membro do grupo.
