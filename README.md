@@ -267,9 +267,23 @@ L1:
 
 ---
 
+## 7. 👥 Quem fez o quê
+
+| Integrante | Responsável por | Passos |
+|---|---|---|
+| João Victor Brandão | Análise léxica e sintática: tokens, gramática Lark LALR, AST e mensagens de erro | 1 e 2 |
+| Kathleen Aquino Lima | Ficha da linguagem, programas-exemplo, README, testes automáticos e interface (Studio) | 0, 8 e 9 |
+| Lucas Costa | Análise semântica: tabela de símbolos, tipos, regras de negócio e avisos | 3 |
+| Victor Quintella | TAC, otimização e VM (comandos do domínio), além dos bônus de funções e Assembly | 4, 5 e 6 |
+
+O trabalho foi feito em branches separadas (`feature/lexico`, `feature/semantico`, `feature/tac`, ...), com Pull Request para a `main`. A bateria de testes roda a cada push pelo GitHub Actions.
+
 ---
 
-## 7. ✅ Checklist
+
+---
+
+## 8. ✅ Checklist
 
 ### Antes de entregar
 
