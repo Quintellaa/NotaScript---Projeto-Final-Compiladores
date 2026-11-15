@@ -267,17 +267,6 @@ L1:
 
 ---
 
-## 7. Quem fez o quê
-
-| Integrante | Responsável por | Passos | Branch |
-|---|---|---|---|
-| NOME_INTEGRANTE_1 | Ficha, programas-exemplo e README | 0 e README | `feature/ficha` |
-| NOME_INTEGRANTE_2 | Léxico e sintático (gramática, AST, mensagens de erro) | 1 e 2 | `feature/lexico` |
-| NOME_INTEGRANTE_3 | Semântico e regras de negócio | 3 | `feature/semantico` |
-| NOME_INTEGRANTE_4 | TAC e otimização (+ Assembly) | 4 e 6 | `feature/tac` |
-| NOME_INTEGRANTE_5 | VM, comandos do domínio, funções (pilha de chamadas) e gráfico | 5 | `feature/vm` |
-| NOME_INTEGRANTE_6 | Testes, interface e CI | 8 e 9 | `feature/testes` |
-
 ---
 
 ## 8. ✅ Checklist
