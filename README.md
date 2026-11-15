@@ -6,10 +6,7 @@
 - NOME_INTEGRANTE_2
 - NOME_INTEGRANTE_3
 - NOME_INTEGRANTE_4
-- NOME_INTEGRANTE_5
-- NOME_INTEGRANTE_6
 
-![testes](https://github.com/USUARIO/REPOSITORIO/actions/workflows/testes.yml/badge.svg)
 
 Projeto Final de Compiladores: um **compilador completo em Python** para a **NotaScript**, uma DSL para lançar notas,
 calcular médias e decidir aprovação, reprovação ou exame final. O compilador passa por todas as fases:
