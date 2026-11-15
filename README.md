@@ -276,10 +276,7 @@ L1:
 | Lucas Costa | Análise semântica: tabela de símbolos, tipos, regras de negócio e avisos | 3 |
 | Victor Quintella | TAC, otimização e VM (comandos do domínio), além dos bônus de funções e Assembly | 4, 5 e 6 |
 
-O trabalho foi feito em branches separadas (`feature/lexico`, `feature/semantico`, `feature/tac`, ...), com Pull Request para a `main`. A bateria de testes roda a cada push pelo GitHub Actions.
-
 ---
-
 
 ---
 
