@@ -269,7 +269,7 @@ L1:
 
 ---
 
-## 8. ✅ Checklist
+## 7. ✅ Checklist
 
 ### Antes de entregar
 
