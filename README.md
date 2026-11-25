@@ -267,7 +267,125 @@ L1:
 
 ---
 
-## 7. 👥 Quem fez o quê
+## 7. 🖥️ NotaScript Studio — passo a passo
+
+Telas reais do painel (última célula do notebook), capturadas depois de *Reiniciar e executar tudo*.
+
+### 7.1 Painel aberto
+
+O painel abre parado. Escolha um exemplo (ou edite o código) e clique em **▶ Compilar e executar**.
+
+![Studio inicial](docs/studio/01_inicial.png)
+
+### 7.2 Exemplo 1 — média ponderada, aba por aba
+
+Ao compilar, o pipeline lateral marca cada fase (✓ passou · ✕ falhou) e as abas mostram cada visão.
+
+**▶ Execução** — indicadores, tabela de disciplinas e saída do programa:
+
+![Exemplo 1 — Execução](docs/studio/02_ex1_execucao.png)
+
+**Tokens:**
+
+![Exemplo 1 — Tokens](docs/studio/03_ex1_aba_tokens.png)
+
+**AST:**
+
+![Exemplo 1 — AST](docs/studio/04_ex1_aba_ast.png)
+
+**Semântico** — tabela de símbolos e avisos:
+
+![Exemplo 1 — Semântico](docs/studio/05_ex1_aba_semantico.png)
+
+**TAC:**
+
+![Exemplo 1 — TAC](docs/studio/06_ex1_aba_tac.png)
+
+**Otimização** — antes × depois, técnicas usadas e prova pela VM:
+
+![Exemplo 1 — Otimização](docs/studio/07_ex1_aba_otimizacao.png)
+
+**Assembly** — registradores e spilling:
+
+![Exemplo 1 — Assembly](docs/studio/08_ex1_aba_assembly.png)
+
+**Gráfico:**
+
+![Exemplo 1 — Gráfico](docs/studio/09_ex1_aba_grafico.png)
+
+**Com "Otimizar o TAC" desligado** — a fase de otimização aparece como desligada e a VM executa mais instruções:
+
+![Exemplo 1 — sem otimização](docs/studio/10_ex1_sem_otimizacao.png)
+
+### 7.3 Exemplo 2 — recuperação (`enquanto`)
+
+![Exemplo 2 — Execução](docs/studio/11_2_recuperacao_enquanto_execucao.png)
+
+![Exemplo 2 — TAC](docs/studio/12_2_recuperacao_enquanto_aba_tac.png)
+
+### 7.4 Exemplo 3 — boletim (`senao se`)
+
+![Exemplo 3 — Execução](docs/studio/13_3_boletim_senao_se_execucao.png)
+
+![Exemplo 3 — Gráfico](docs/studio/14_3_boletim_senao_se_aba_grafico.png)
+
+### 7.5 Exemplo 4 — turma com pesos fixos (otimização)
+
+![Exemplo 4 — Execução](docs/studio/15_4_turma_com_pesos_fixos_otimizacao_execucao.png)
+
+![Exemplo 4 — Otimização](docs/studio/16_4_turma_com_pesos_fixos_otimizacao_aba_otimizacao.png)
+
+### 7.6 Exemplo 5 — escopo de bloco e avisos
+
+![Escopo — Execução](docs/studio/17_5_escopo_de_bloco_e_avisos_execucao.png)
+
+![Escopo — Semântico](docs/studio/18_5_escopo_de_bloco_e_avisos_aba_semantico.png)
+
+### 7.7 Exemplo 6 — semestre inteiro (gráfico)
+
+![Semestre — Execução](docs/studio/19_6_semestre_inteiro_grafico_execucao.png)
+
+![Semestre — Gráfico](docs/studio/20_6_semestre_inteiro_grafico_aba_grafico.png)
+
+### 7.8 Exemplo 7 — funções e recursão (bônus)
+
+![Funções — Execução](docs/studio/21_7_funcoes_e_recursao_bonus_execucao.png)
+
+![Funções — Semântico](docs/studio/22_7_funcoes_e_recursao_bonus_aba_semantico.png)
+
+![Funções — TAC](docs/studio/23_7_funcoes_e_recursao_bonus_aba_tac.png)
+
+![Funções — Assembly](docs/studio/24_7_funcoes_e_recursao_bonus_aba_assembly.png)
+
+### 7.9 Erros de cada fase
+
+**Erro léxico** — acento no nome da variável:
+
+![Erro léxico](docs/studio/25_erro_lexico_acento_no_nome_execucao.png)
+
+**Erro sintático** — faltou `;`:
+
+![Erro sintático](docs/studio/26_erro_sintatico_faltou_execucao.png)
+
+**Erro semântico** — variável não declarada, com "Você quis dizer...?":
+
+![Erro semântico — variável não declarada](docs/studio/27_erro_semantico_variavel_nao_declarada.png)
+
+**Erro semântico** — regra de negócio: nota fora de 0 a 10:
+
+![Erro semântico — nota fora de 0 a 10](docs/studio/28_erro_semantico_nota_fora_de_0_a_10.png)
+
+**Erro de execução** — divisão por zero:
+
+![Erro de execução — divisão por zero](docs/studio/29_erro_de_execucao_divisao_por_zero_execucao.png)
+
+**Erro de execução** — laço infinito:
+
+![Erro de execução — laço infinito](docs/studio/30_erro_de_execucao_laco_infinito_execucao.png)
+
+---
+
+## 8. 👥 Quem fez o quê
 
 | Integrante | Responsável por | Passos |
 |---|---|---|
@@ -278,7 +396,7 @@ L1:
 
 ---
 
-## 8. ✅ Checklist
+## 9. ✅ Checklist
 
 ### Antes de entregar
 
